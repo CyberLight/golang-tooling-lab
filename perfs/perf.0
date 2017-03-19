@@ -1,0 +1,11 @@
+PS C:\go-workspace\src\github.com\cyberlight\golang-tooling-lab> go-wrk.exe -d 5 http://localhost:8080/cyberlight@gopher
+.org
+Running 5s test @ http://localhost:8080/cyberlight@gopher.org
+  10 goroutine(s) running concurrently
+71263 requests in 4.94435561s, 8.84MB read
+Requests/sec:           14413.00
+Transfer/sec:           1.79MB
+Avg Req Time:           693.818µs
+Fastest Request:        0s
+Slowest Request:        15.0095ms
+Number of Errors:       0
